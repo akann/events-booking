@@ -73,6 +73,8 @@ Run the following
 npm test
 ```
 
+Known issue: Unit test can be flaky due to jest timing. Rerun the tests if it fails.
+
 Navigate to <http://localhost:4201/tests> to view tests report.
 
 Unit tests result
