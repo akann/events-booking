@@ -142,4 +142,4 @@ You can test the API using tools like Postman or cURL or [API docs](http://local
 
 ## Conclusion
 
-The application works as specified. If I spent more time I would have considered storing data in redis differently. Replacing the whole event each time is possibly not the best way to handle the event data.
+The application works as specified. If I spent more time I would have considered storing data in redis differently. Replacing the whole event each time is possibly not the best way to handle the event data. Also, would possibly handly expiry with redis EX.
