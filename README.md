@@ -113,11 +113,11 @@ docker-compose down
 
 Access the API
 
-The API will be available at <http://localhost:4201>.
+The API will be available at <http://localhost:4202>.
 
 View API Documentation
 
-Navigate to <http://localhost:4201/docs> to view the Swagger documentation.
+Navigate to <http://localhost:4202/docs> to view the Swagger documentation.
 
 ![API Docs](api.png)
 
