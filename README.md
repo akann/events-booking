@@ -121,11 +121,11 @@ Navigate to <http://localhost:4201/docs> to view the Swagger documentation.
 
 ## Available Endpoints
 
-- POST /events: Create a new event.
-- GET /events/{eventId}/seats: List all available seats for a given event.
-- POST /events/{eventId}/seats/{seatId}/hold: Hold a seat for a user.
-- POST /events/{eventId}/seats/{seatId}/reserve: Reserve a held seat for a user.
-- POST /events/{eventId}/seats/{seatId}/reserve: Refresh hold time for a seat held by a user.
+- POST `/events`: Create a new event.
+- GET `/events/{eventId}/seats`: List all available seats for a given event.
+- POST `/events/{eventId}/seats/{seatId}/hold`: Hold a seat for a user.
+- POST `/events/{eventId}/seats/{seatId}/reserve`: Reserve a held seat for a user.
+- POST `/events/{eventId}/seats/{seatId}/reserve`: Refresh hold time for a seat held by a user.
 
 ## Environment Variables
 
