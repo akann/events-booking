@@ -113,11 +113,11 @@ docker-compose down
 
 Access the API
 
-The API will be available at <http://localhost:4202>.
+The API will be available at <http://localhost:4201>.
 
 View API Documentation
 
-Navigate to <http://localhost:4202/docs> to view the Swagger documentation.
+Navigate to <http://localhost:4201/docs> to view the Swagger documentation.
 
 ![API Docs](api.png)
 
@@ -142,4 +142,4 @@ You can test the API using tools like Postman or cURL or [API docs](http://local
 
 ## Conclusion
 
-The application works as specified. If I spent more time I would have considered storing data in redis differently. Replacing the whole event each time is possibly not the best way to handle the event data. Also, would possibly handly expiry with redis EX.
+The application works as specified. If I spent more time I would have considered storing data in redis differently - doing validation in `EventModel`. Replacing the whole event each time is possibly not the best way to handle the event data.
